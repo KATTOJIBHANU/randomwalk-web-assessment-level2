@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Tic Tac Toe</h1>
+      <p id="subtitle">A fun 2-player game</p>
+    </header>
+    <main>
+      <div class="game">
+        <div class="board" id="board"></div>
+        <div class="score-panel">
+          <div class="score">
+            <p>Player X</p>
+            <h2 id="score-x">0</h2>
+          </div>
+          <div class="score">
+            <p>Player O</p>
+            <h2 id="score-o">0</h2>
+          </div>
+        </div>
+      </div>
+      <div id="game-info">
+        <p id="turn-info">Turn: Player X</p>
+        <p id="result"></p>
+      </div>
+      <button id="restart">Restart Game</button>
+    </main>
+    <footer>
+      <p>Made with ❤️ by Sai Bhanu</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
